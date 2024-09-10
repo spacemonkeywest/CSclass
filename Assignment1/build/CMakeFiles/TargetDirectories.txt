@@ -1,0 +1,3 @@
+/Users/carlosaldaco/Desktop/CS class/Assignment1/build/CMakeFiles/run.dir
+/Users/carlosaldaco/Desktop/CS class/Assignment1/build/CMakeFiles/edit_cache.dir
+/Users/carlosaldaco/Desktop/CS class/Assignment1/build/CMakeFiles/rebuild_cache.dir
