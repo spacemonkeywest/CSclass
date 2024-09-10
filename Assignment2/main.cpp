@@ -6,7 +6,6 @@
 * or update community resources
 * Output: A creation success message, a list of resources, update
 * success message, or an error message.
-* blah
 */
 
 #include <iostream>
