@@ -65,10 +65,10 @@ void displayResource() const;
 
 // Function prototypes for menu options
 void addResource(std::vector<CommunityResource>& resources);
-void viewResources(std::vector<CommunityResource>& resources);
+void viewResources(const std::vector<CommunityResource>& resources);
 void updateResource(std::vector<CommunityResource>& resources);
 void updateDetails(CommunityResource& resource);
-bool resourceExists(std::string name, 
+bool resourceExists(const std::string name, 
    std::vector<CommunityResource>& resources);
 
 int main()
@@ -271,7 +271,7 @@ void addResource(std::vector<CommunityResource>& resources)
 * parameters: resources vector
 * return value: void
 */
-void viewResources(std::vector<CommunityResource>& resources) 
+void viewResources(const std::vector<CommunityResource>& resources) 
 {
    if (resources.size() == 0) 
    {
@@ -363,7 +363,7 @@ void updateDetails(CommunityResource& resource)
 * return value: True if already exists, false if not
 */
 bool resourceExists(std::string name, 
-   std::vector<CommunityResource>& resources) 
+   std::vector<CommunityResource>& resources)
 {
    for (int i = 0; i < resources.size(); i++) 
    {
