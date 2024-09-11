@@ -87,32 +87,27 @@ int main()
    std::cout << "4. Exit\n";
    std::cout << "Enter your choice: ";
    std::cin >> choice;
-   // Ignore newline
    std::cin.ignore();
 
    switch (choice)
    {
    case 1:
-   std::cout << std::endl;
    addResource(resources);
    std::cout << std::endl;
    break;
 
    case 2:
-   std::cout << std::endl;
    viewResources(resources);
    std::cout << std::endl;
    break;
 
    case 3:
-   std::cout << std::endl;
    updateResource(resources);
    std::cout << std::endl;
    break;
 
    case 4:
-   std::cout << std::endl;
-   std::cout << "Exiting...\n";
+   std::cout << "Exiting...";
    break;
 
    default:
@@ -249,7 +244,7 @@ void addResource(std::vector<CommunityResource>& resources)
    std::cout << "Enter the address of the resource: ";
    std::getline(std::cin, address);
 
-   std::cout << "Enter the contact information of the resource: ";
+   std::cout << "Enter the contact information: ";
    std::getline(std::cin, contact);
 
    if (resourceExists(name, resources))
@@ -260,14 +255,15 @@ void addResource(std::vector<CommunityResource>& resources)
    {
       CommunityResource newResource(name, type, address, contact);
       resources.push_back(newResource);
-      std::cout << "Resource added succesfully!" << std::endl;
+      std::cout << "Resource added successfully!";
    }
 
    
 }
 
 /*
-* function_identifier: Loop through all resources and display their details
+* function_identifier: Loop through all resources and display their 
+* details
 * parameters: resources vector
 * return value: void
 */
@@ -275,15 +271,14 @@ void viewResources(const std::vector<CommunityResource>& resources)
 {
    if (resources.size() == 0) 
    {
-      std::cout << "No resources created yet." << std::endl;
+      std::cout << "No resources available.";
    }
 
    for (int i = 0; i < resources.size(); i++) 
    {
-      std::cout << "----------------------------" << std::endl;
       resources[i].displayResource();
+      std::cout << "-----------------------";
    }
-   std::cout << "----------------------------" << std::endl;
 }
 
 /*
@@ -303,11 +298,12 @@ void updateResource(std::vector<CommunityResource>& resources)
       if (resources[i].getName() == resourceName) 
       {
          updateDetails(resources[i]);
+         std::cout << "resource updated successfully!";
          return;
       }
    }
 
-   std::cout << "Resource not found." << std::endl;
+   std::cout << "Resource not found.";
 }
 
 
