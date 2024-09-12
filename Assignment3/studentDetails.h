@@ -4,8 +4,8 @@ ASSIGNMENT: 3
 Purpose: Multiple classes, Inheritance, Composition
 Description: Tuitions and Fee Estimator
 Input: main.cpp is a Driver class in this assignment. Objects of 
-different classes are declared in main.cpp using constructors, setters and 
-other functions. Read the students' data from an input file 
+different classes are declared in main.cpp using constructors, setters
+and other functions. Read the students' data from an input file 
 "student_data.txt"
 What to do?: This system manages student data, including personal 
 information and fee calculations based on their degree and residency 
@@ -100,7 +100,8 @@ public:
 /**
      * @brief Prints the student's details.
      * 
-     * This method outputs the student's name, birth year, and enrollment year to the console.
+     * This method outputs the student's name, birth year, and enrollment
+     * year to the console.
      * 
      * @return None.
      */
