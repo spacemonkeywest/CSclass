@@ -1,5 +1,6 @@
 /*
-Name: KISHORE, NSHE: ABC123, CLASS-SECTION: CS202, ASSIGNMENT: 3
+Name: Carlos Aldaco Flores, NSHE: 5008406281, CLASS-SECTION: 1006, 
+ASSIGNMENT: 3
 Purpose: Multiple classes, Inheritance, Composition
 Description: Tuitions and Fee Estimator
 Input: main.cpp is a Driver class in this assignment. Objects of different 
@@ -37,7 +38,8 @@ class studentType: public studentDetails
 public:
     /**
          * @brief Default constructor for studentType.
-         * Initializes studentID, department, stdDegree, residency, and creditsRequired to default values.
+         * Initializes studentID, department, stdDegree, residency, 
+         * and credits. Required to default values.
          */
     studentType(); // Default constructor
     

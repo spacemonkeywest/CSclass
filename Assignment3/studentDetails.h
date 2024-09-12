@@ -1,9 +1,10 @@
 /*
-Name: KISHORE, NSHE: ABC123, CLASS-SECTION: CS202, ASSIGNMENT: 3
+Name: Carlos Aldaco Flores, NSHE: 5008406281, CLASS-SECTION: 1006, 
+ASSIGNMENT: 3
 Purpose: Multiple classes, Inheritance, Composition
 Description: Tuitions and Fee Estimator
-Input: main.cpp is a Driver class in this assignment. Objects of different 
-classes are declared in main.cpp using constructors, setters and 
+Input: main.cpp is a Driver class in this assignment. Objects of 
+different classes are declared in main.cpp using constructors, setters and 
 other functions. Read the students' data from an input file 
 "student_data.txt"
 What to do?: This system manages student data, including personal 
@@ -36,8 +37,8 @@ public:
 /**
      * @brief Default constructor for studentDetails.
      * 
-     * Initializes a studentDetails object with default values: empty strings for names and 
-     * zeros for birth year and enrollment year.
+     * Initializes a studentDetails object with default values: empty 
+     * strings for names and zeros for birth year and enrollment year.
      */
     studentDetails(); //Default constructor
 /**
@@ -63,7 +64,8 @@ public:
      * @return None.
      */
   /*Mutator Method-Setter function*/
-    void setStudentDetails(string fName, string lName, int bYear, int yEnroll);
+    void setStudentDetails(string fName, string lName, int bYear, 
+      int yEnroll);
 
 /*Accessor Methods*/
 /**

@@ -1,21 +1,22 @@
 /*
- * Name: KISHORE, NSHE: ABC123, CLASS-SECTION: CS202, ASSIGNMENT: 3
- * Purpose: Multiple classes, Inheritance, Composition
- * Description: Tuitions and Fee Estimator
- * Input: main.cpp is a Driver class in this assignment. 
- * Objects of different classes are declared in main.cpp using 
- * constructors, setters and other functions. Read the students' 
- * data from an input file "student_data.txt"
- * What to do?: This system manages student data, including personal 
- * information and fee calculations based on their degree and residency 
- * status. The system consists of several classes, each responsible for
- * different aspects of student management.You have to check studentID 
- * based on given conditions, and print the output on console window and 
- * write the output to a file.
- * Output: You write the output on the terminal itself and also print the
- * output to "Estimated_Fees.txt". You print all valid and 
- * invalid entries; print error messages for invalid entries accordingly.
- * Check example output for more details.
+Name: Carlos Aldaco Flores, NSHE: 5008406281, CLASS-SECTION: 1006, 
+ASSIGNMENT: 3
+Purpose: Multiple classes, Inheritance, Composition
+Description: Tuitions and Fee Estimator
+Input: main.cpp is a Driver class in this assignment. 
+Objects of different classes are declared in main.cpp using 
+constructors, setters and other functions. Read the students' 
+data from an input file "student_data.txt"
+What to do?: This system manages student data, including personal 
+information and fee calculations based on their degree and residency 
+status. The system consists of several classes, each responsible for
+different aspects of student management.You have to check studentID 
+based on given conditions, and print the output on console window and 
+write the output to a file.
+Output: You write the output on the terminal itself and also print the
+output to "Estimated_Fees.txt". You print all valid and 
+invalid entries; print error messages for invalid entries accordingly.
+Check example output for more details.
 */
 
 /**

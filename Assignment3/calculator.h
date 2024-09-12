@@ -1,5 +1,6 @@
 /*
-Name: KISHORE, NSHE: ABC123, CLASS-SECTION: CS202, ASSIGNMENT: 3
+Name: Carlos Aldaco Flores, NSHE: 5008406281, CLASS-SECTION: 1006, 
+ASSIGNMENT: 3
 Purpose: Multiple classes, Inheritance, Composition
 Description: Tuitions and Fee Estimator
 Input: main.cpp is a Driver class in this assignment. 
