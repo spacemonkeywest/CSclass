@@ -91,7 +91,10 @@ bool studentType::checkStudentID(string idTemp) const
 {
    string realID = "";
    realID += lastName[0] + lastName[1] + lastName[2];
-   realID += ((birthYear / 1000) + '0') + (((birthYear / 1000) % 10) + '0');
+   realID += ((birthYear / 1000) + '0') + (((birthYear / 100) % 10) + '0');
+   realID += (((yEnrolled%100) / 10)) + '0' + ((yEnrolled % 10) + '0');
+
+   return realID == idTemp;
 }
 
 void studentType::printStudentTypeData() const
