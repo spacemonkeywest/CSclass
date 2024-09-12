@@ -1,6 +1,12 @@
 #include "studentDetails.h"
 
-studentDetails::studentDetails() {}
+studentDetails::studentDetails() 
+{
+   firstName = "";
+   lastName = "";
+   birthYear = 0;
+   yEnrolled = 0;
+}
 
 studentDetails::studentDetails(string fName, string lName, int bYear, 
    int yEnroll) 
