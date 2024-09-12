@@ -1,0 +1,11 @@
+firstName lastName birthYear yearEnrolled id department_part1 department_part2 residence creditsRequired gradYears
+John Doe 1999 2024 doe1924 Computer Science Graduate Resident 30 2
+Jane Smith 2000 2022 smi1022 Electrical Engineering Undergraduate International 120 5
+Michael Johnson 2002 2023 joh2023 Mechanical Engineering Graduate International 34 3
+Emily Brown 1995 2020 bro192 Business Administration Undergraduate Resident 132 5
+David Lee 2002 2022 lee2002 Computer Science Undergraduate International 120 4
+Olivia Clark 2000 2023 cla2023 Computer Engineering Undergraduate Resident 125 5
+Jack Cox 1997 2021 lee2001 Computer Science Graduate Resident 30 3
+Alexander Jones 2003 2024 jon2029 Machine Learning Undergraduate Resident 130 5
+Hernandez Natalie 1998 2020 nat1920 Cyber Security Graduate International 30 2
+Emily Webb 2004 2024 webb2024 Software Engineering Undergraduate Resident 120 6

@@ -64,12 +64,12 @@ void displayResource() const;
 };
 
 // Function prototypes for menu options
-void addResource(std::vector<CommunityResource>& resources);
-void viewResources(const std::vector<CommunityResource>& resources);
-void updateResource(std::vector<CommunityResource>& resources);
+void addResource(std::vector<CommunityResource>&);
+void viewResources(const std::vector<CommunityResource>&);
+void updateResource(std::vector<CommunityResource>&);
 void updateDetails(CommunityResource& resource);
 bool resourceExists(const std::string name, 
-   std::vector<CommunityResource>& resources);
+std::vector<CommunityResource>&);
 
 int main()
 {
