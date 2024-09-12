@@ -142,8 +142,10 @@ public:
      * @return bool True if the ID is valid, false otherwise.
      */
     bool checkStudentID(string idTemp) const; 
-    /*firt 3 characters of last name+ first and second digit of birth 
-    year + third and fourth digit of enrolled year*/
+    /*
+    first 3 characters of last name + first and second digit of birth 
+    year + third and fourth digit of enrolled year
+    */
     
     /**
      * @brief Prints the details of the student.
