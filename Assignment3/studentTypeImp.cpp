@@ -14,10 +14,7 @@ studentType::studentType(string fName, string lName, int bYear,
    int yEnroll, string ID, string dept, string degree, string residence,
    int credsReqd, int gradYears)
 {
-   firstName = fName;
-   lastName = lName;
-   birthYear = bYear;
-   yEnrolled = yEnroll;
+   studentDetails::setStudentDetails(fName, lName, bYear, yEnroll);
    studentID = ID;
    department = dept;
    stdDegree = degree;
@@ -31,10 +28,7 @@ void studentType::setStudentDetails(string fName, string lName,
                string degree, string residence, int credsReqd, 
                int gradYears)
 {
-   firstName = fName;
-   lastName = lName;
-   birthYear = bYear;
-   yEnrolled = yEnroll;
+   studentDetails::setStudentDetails(fName, lName, bYear, yEnroll);
    studentID = ID;
    department = dept;
    stdDegree = degree;
