@@ -1,4 +1,4 @@
-firstName lastName birthYear yearEnrolled id department_part1 department_part2 residence creditsRequired gradYears
+firstName lastName birthYear yearEnrolled id department_part1 department_part2 degree residence creditsRequired gradYears
 John Doe 1999 2024 doe1924 Computer Science Graduate Resident 30 2
 Jane Smith 2000 2022 smi1022 Electrical Engineering Undergraduate International 120 5
 Michael Johnson 2002 2023 joh2023 Mechanical Engineering Graduate International 34 3
