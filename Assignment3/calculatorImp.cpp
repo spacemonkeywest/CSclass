@@ -29,8 +29,9 @@ double calculator::calculateTuition(const studentType &stdObj,
          } 
          else
          {
-            fee = undergradNonResident + (stdObj.getYearstoGrad() * 
-            (nonResidentYearFee + intInsuranceYearFee));
+            fee = undergradNonResident * stdObj.getCreditsRequired()
+               + ((stdObj.getYearstoGrad() * 
+               (nonResidentYearFee + intInsuranceYearFee)));
          }
       }
       else 
@@ -41,8 +42,9 @@ double calculator::calculateTuition(const studentType &stdObj,
          }
          else
          {
-            fee = gradNonResident + (stdObj.getYearstoGrad() * 
-               (nonResidentYearFee + intInsuranceYearFee));
+            fee = gradNonResident * stdObj.getCreditsRequired()
+               + ((stdObj.getYearstoGrad() * 
+               (nonResidentYearFee + intInsuranceYearFee)));
          }
       }
    }
@@ -60,8 +62,9 @@ double calculator::calculateTuition(const studentType &stdObj,
          } 
          else
          {
-            fee = undergradNonResident + (stdObj.getYearstoGrad() * 
-            (nonResidentYearFee + intInsuranceYearFee));
+            fee = undergradNonResident * stdObj.getCreditsRequired()
+               + ((stdObj.getYearstoGrad() * 
+               (nonResidentYearFee + intInsuranceYearFee)));
 
             std::cout << "Undergraduate Non-Resident Credit Fee: " <<
                undergradNonResident << "*" << stdObj.getCreditsRequired()
@@ -93,8 +96,9 @@ double calculator::calculateTuition(const studentType &stdObj,
          }
          else
          {
-            fee = gradNonResident + (stdObj.getYearstoGrad() * 
-               (nonResidentYearFee + intInsuranceYearFee));
+            fee = gradNonResident * stdObj.getCreditsRequired()
+               + ((stdObj.getYearstoGrad() * 
+               (nonResidentYearFee + intInsuranceYearFee)));
             
             std::cout << "Graduate Non-Resident Credit Fee: " << 
             gradNonResident << "*" << stdObj.getCreditsRequired() << 
