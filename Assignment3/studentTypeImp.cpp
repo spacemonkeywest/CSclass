@@ -95,8 +95,10 @@ void studentType::printStudentTypeData() const
 {
    studentDetails::printStudentDetails();
    cout << "Student ID: " << studentID << ',';
-   cout << "Department: " << department << ',';
-   cout << "Degree: " << stdDegree << '\n';
-   cout << "Residency: " << residency;
+   cout << " Department: " << department << ',';
+   cout << " Degree: " << stdDegree << '\n';
+   cout << "Residency: " << residency << '\n';
+   cout << "Credits Required: " << creditsRequired << ',';
+   cout << " Years to Graduate: " << yearstoGrad << '\n';
 }
 

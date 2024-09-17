@@ -49,6 +49,6 @@ int studentDetails::getYearEnrolled() const
 void studentDetails::printStudentDetails() const
 {
    cout << "Name: " << firstName << " " << lastName << ',';
-   cout << "Birth Year: " << birthYear << ',';
-   cout << "Year Enrolled: " << yEnrolled << std::endl;
+   cout << " Birth Year: " << birthYear << ',';
+   cout << " Year Enrolled: " << yEnrolled << endl;
 }
