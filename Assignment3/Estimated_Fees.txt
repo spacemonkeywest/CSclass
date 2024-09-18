@@ -1,1 +1,41 @@
 Student Fee Calculations:
+Student: 1
+Name: JohnDoe
+Birth Year: 1999, Year Enrolled: 2024
+Student ID: doe1924, Department: ComputerScience
+Degree: Graduate, Residency: Resident
+Credits Required: 30, Years to Graduate: 2
+Estimated Total: 123.25
+Student: 2
+Invalid ID for the student (To File): JaneSmith
+Student: 3
+Name: MichaelJohnson
+Birth Year: 2002, Year Enrolled: 2023
+Student ID: joh2023, Department: MechanicalEngineering
+Degree: Graduate, Residency: International
+Credits Required: 34, Years to Graduate: 3
+Estimated Total: 79967.80
+Student: 4
+Invalid ID for the student (To File): EmilyBrown
+Student: 5
+Invalid ID for the student (To File): DavidLee
+Student: 6
+Name: OliviaClark
+Birth Year: 2000, Year Enrolled: 2023
+Student ID: cla2023, Department: ComputerEngineering
+Degree: Undergraduate, Residency: Resident
+Credits Required: 125, Years to Graduate: 5
+Estimated Total: 13693.75
+Student: 7
+Invalid ID for the student (To File): JackCox
+Student: 8
+Invalid ID for the student (To File): AlexanderJones
+Student: 9
+Name: HernandezNatalie
+Birth Year: 1998, Year Enrolled: 2020
+Student ID: nat1920, Department: CyberSecurity
+Degree: Graduate, Residency: International
+Credits Required: 30, Years to Graduate: 2
+Estimated Total: 56162.70
+Student: 10
+Invalid ID for the student (To File): EmilyWebb

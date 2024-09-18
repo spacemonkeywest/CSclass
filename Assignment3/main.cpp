@@ -28,7 +28,7 @@ int main() {
     calculator studentFee;
     int stdCount = 0; //Student count
     vector<studentType> students = fh.readStudentData("student_data.txt");
-    cout << fixed << setprecision(2)<< endl;
+    cout << fixed << setprecision(2) << endl;
 
     cout << "\nStudent Fee Calculations:\n";
      

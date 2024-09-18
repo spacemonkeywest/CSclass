@@ -36,6 +36,7 @@ Check example output for more details.
 #include <fstream>
 #include <string>
 #include <vector>
+#include <iomanip>
 #include "studentType.h"
 //Composition- has a relationship
 /* The fileHandler class has methods that operate on studentType objects. 
