@@ -1,0 +1,86 @@
+Output for test case#1:
+v1.size(): 0
+v1.capacity(): 0
+v1.empty(): 1
+
+De-allocating memory..
+
+Output for test case#2:
+v2.size(): 2
+v2.capacity(): 2
+v2.empty(): 0
+Vector elements are: 0 0
+
+De-allocating memory..
+
+Output for test case#3:
+v3.size(): 5
+v3.capacity(): 5
+v3.empty(): 0
+Vector elements are: 1 1 1 1 1
+
+De-allocating memory..
+
+Output for test case#4:
+v4.size(): 0
+v4.capacity(): 0
+
+Resizing the vector..
+v4.size(): 0
+v4.capacity(): 1
+
+Resizing the vector..
+v4.size(): 0
+v4.capacity(): 2
+
+Resizing the vector..
+v4.size(): 0
+v4.capacity(): 4
+
+De-allocating memory..
+
+Output for test case #5:
+v5.size(): 0
+v5.capacity(): 0
+
+pushing back 0..
+v5.size(): 1
+v5.capacity(): 1
+
+pushing back 1..
+v5.size(): 2
+v5.capacity(): 2
+
+pushing back 2..
+v5.size(): 3
+v5.capacity(): 4
+
+De-allocating memory..
+
+Output for test case #6:
+v6.size(): 5
+v6.capacity(): 5
+1 1 1 1 1
+
+popping back four elements
+v6.size(): 1
+v6.capacity(): 5
+
+pushing back 1..
+pushing back 2..
+pushing back 3..
+pushing back 4..
+pushing back 5..
+v6.size(): 6
+v6.capacity(): 10
+
+clearing the vector..
+v6.empty(): 1
+v6.size(): 0
+v6.capacity(): 10
+v6.size(): 0
+v6.capacity(): 0
+v6.size(): 1
+v6.capacity(): 1
+
+De-allocating memory..
